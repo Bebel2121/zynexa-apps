@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zynexa Apps</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="snow"></div>
+
+<div id="loader">
+  <h1>Zynexa-Apps</h1>
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+  <span id="percent">0%</span>
+</div>
+
+<header>
+  <h1 class="logo">Zynexa <span>Apps</span></h1>
+  <p class="subtitle">Os melhores apps premium</p>
+  <input type="text" id="search" placeholder="Buscar apps...">
+</header>
+
+<div class="filtros">
+  <button onclick="filtrar('todos')">Todos</button>
+  <button onclick="filtrar('streaming')">Streaming</button>
+  <button onclick="filtrar('edicao')">Edição</button>
+  <button onclick="filtrar('Xit FF')">Xit FF</button>
+</div>
+
+<div class="apps"></div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
